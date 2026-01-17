@@ -17,20 +17,20 @@ object Natives {
     // 10977: change groups_count and groups to avoid overflow write
     // 11071: Fix the issue of failing to set a custom SELinux type.
     // 12797: zygisk query and get manager uid.
-    const val MINIMAL_SUPPORTED_KERNEL = 12797
+    const val MINIMAL_SUPPORTED_KERNEL = 11998
 
     // 11640: Support query working mode, LKM or GKI
     // when MINIMAL_SUPPORTED_KERNEL > 11640, we can remove this constant.
-    const val MINIMAL_SUPPORTED_KERNEL_LKM = 12797
+    const val MINIMAL_SUPPORTED_KERNEL_LKM = 11998
 
     // 12404: Support disable sucompat mode
-    const val MINIMAL_SUPPORTED_SU_COMPAT = 12404
+    const val MINIMAL_SUPPORTED_SU_COMPAT = 11998
 
     // 12569: support get hook mode
-    const val MINIMAL_SUPPORTED_HOOK_MODE = 12569
+    const val MINIMAL_SUPPORTED_HOOK_MODE = 11998
 
     // 12750: support get manager UID
-    const val MINIMAL_SUPPORTED_MANAGER_UID = 12751
+    const val MINIMAL_SUPPORTED_MANAGER_UID = 11998
 
     const val KERNEL_SU_DOMAIN = "u:r:su:s0"
 
